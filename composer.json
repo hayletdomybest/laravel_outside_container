@@ -1,0 +1,23 @@
+{
+    "name": "user/simple-test",
+    "authors": [
+        {
+            "name": "chengwei.shiu",
+            "email": "t628x7600@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "App"
+        ]
+    },
+    "require": {
+        "illuminate/container": "^5.8"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    }
+}
